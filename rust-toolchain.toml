@@ -1,0 +1,4 @@
+[toolchain]
+channel = "nightly-2022-06-11"
+components = [ "miri", "reproducible-artifacts", "rls", "rust-analysis", "rust-analyzer-preview", "rustc-dev", "rust-src" ]
+profile = "default"

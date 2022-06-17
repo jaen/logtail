@@ -1,0 +1,9 @@
+[package]
+name = "logtail-cli"
+version = "0.0.1"
+description = ""
+rust-version = "1.63"
+
+[dependencies]
+clap = { version = "3.1.18", features = ["derive"] }
+logtail = { version = "=0.0.1", path = "../logtail" }

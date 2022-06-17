@@ -1,0 +1,8 @@
+[package]
+name = "logtail"
+version = "0.0.1"
+description = ""
+rust-version = "1.63"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
